@@ -1,0 +1,14 @@
+{ 
+	"mysql_slow" : {
+		"properties" : {
+			"id" : { "type" : "string" },
+			"datetime" : { "type" : "date", "format" : "date_time" },
+			"query_time" : { "type" : "float" },
+			"lock_time" : { "type" : "float" },
+			"rows_sent" : { "type" : "integer" },
+			"rows_examined" : { "type" : "integer" },
+			"insert" : { "type" : "integer" },
+			"command" : { "type" : "string" }
+		}
+	}
+}
